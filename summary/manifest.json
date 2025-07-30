@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "AI网页助手",
+  "version": "1.0",
+  "description": "AI网页助手,问答交互，你的智能助手",
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "AI网页助手"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "128": "images/icon-128.png"
+  }
+}

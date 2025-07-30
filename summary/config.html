@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>配置 API</title>
+    <link rel="stylesheet" href="config.css">
+</head>
+<body>
+<div class="container">
+    <h2>插件配置(目前支持dify)</h2>
+
+    <div class="form-group">
+        <label for="apiUrl">API 接口 URL</label>
+        <input type="text" id="apiUrl" placeholder="例如：https://api.example.com/v1/..." />
+    </div>
+
+    <div class="form-group">
+        <label for="apiKey">接口 KEY</label>
+        <input type="text" id="apiKey" placeholder="请输入你的 API Key" />
+    </div>
+
+    <button id="btnSaveConfig">💾 保存配置</button>
+</div>
+
+<script src="config.js"></script>
+</body>
+</html>

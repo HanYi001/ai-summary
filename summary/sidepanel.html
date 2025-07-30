@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>AI网页助手</title>
+    <link rel="stylesheet" href="libs/default.min.css">
+    <link rel="stylesheet" href="libs/style.css"> <!-- 你自定义的样式 -->
+    <link rel="stylesheet" href="libs/markdown-theme.css"> <!-- 可选 Markdown 样式 -->
+</head>
+<body>
+
+
+<div id="chat-container">
+    <!-- 对话内容显示区 -->
+    <div id="chat-output" class="markdown-body"></div>
+</div>
+<!-- 快捷功能区 -->
+<div id="quick-tools">
+    <button id="btnConfig">⚙️ 配置</button>
+    <!-- 你还可以添加更多按钮，如：重新生成、清空、导出等 -->
+</div>
+<!-- 输入区 -->
+<div id="chat-input-container">
+    <input type="text" id="chat-input" placeholder="请输入你的问题..."/>
+    <button id="send-btn">发送</button>
+</div>
+
+<script src="libs/highlight.min.js"></script>
+<script src="libs/markdown-it.js"></script>
+<script src="sidepanel.js"></script>
+</body>
+</html>
